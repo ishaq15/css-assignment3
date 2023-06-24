@@ -1,0 +1,86 @@
+* {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.div-header {
+display: flex;
+justify-content: center;
+background-color: black;
+}
+
+.div-header2 {
+    display: block;
+    margin-bottom: 0;
+    margin: o auto;
+}
+.nav {
+    display: inline-block;
+    margin-top: 35x;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-bottom: 35px;
+    border-width: 3px;
+    border-style: double;
+    justify-content: center;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+    width: 1000px;
+    box-shadow: 5px 10px  15px  rgb(54, 35, 35);
+    overflow-x: auto;
+    margin-top: 39px;
+top: 0; right: 0; bottom: 1; left: 0;
+border: 15px solid rgb(253, 251, 247)
+}
+
+#ulist {
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: center;
+    margin: o auto;
+    background-color: black;
+    color: white;
+}
+
+.div-header ul a {
+    padding: 13px;
+    color: white;
+    display: inline-block
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.div-header2 h1 {
+text-align: center;
+}
+
+
+.div-header2 p {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+    
+li {
+    float: left;    
+}
+
+h3 {
+    margin-left: 16px;
+}
+
+a:link, a:visited{
+    
+}
+
+div #steve-site {
+    color: rgb(52, 52, 122);
+
+}
+
+.nav p, h2 {
+margin-left: 7px;
+margin-right: 7px;
+text-align: center;
+}
