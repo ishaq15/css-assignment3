@@ -3,24 +3,26 @@
 }
 
 .div-header {
-display: flex;
+ display: block;
 justify-content: center;
 background-color: black;
+margin-left: 250px;
+margin-right:250px ;
 }
 
 .div-header2 {
-    display: block;
+    display: block
     margin-bottom: 0;
     margin: o auto;
 }
 .nav {
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 35x;
     margin-left: 150px;
     margin-right: 100px;
     margin-bottom: 35px;
     border-width: 3px;
-    border-style: double;
+    border-style: solid;
     justify-content: center;
     scroll-behavior: auto;
     scroll-behavior: smooth;
