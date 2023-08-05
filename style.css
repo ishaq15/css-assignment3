@@ -1,88 +1,261 @@
 * {
-    font-family: 'Nanum Myeongjo', serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.div-header {
- display: block;
-justify-content: center;
-background-color: black;
-margin-left: 250px;
-margin-right:250px ;
+header {
+  line-height: 0;
+  background-color: #3a3a3a;
+  padding: 0px 300px;
+  height: 40px;
+  font-size: 12px;
+  font-family: "SF Pro Display", sans-serif;
 }
 
-.div-header2 {
-    display: block
-    margin-bottom: 0;
-    margin: o auto;
-}
-.nav {
-    /* display: inline-block; */
-    margin-top: 35x;
-    margin-left: 150px;
-    margin-right: 100px;
-    margin-bottom: 35px;
-    border-width: 3px;
-    border-style: solid;
-    justify-content: center;
-    scroll-behavior: auto;
-    scroll-behavior: smooth;
-    width: 1000px;
-    box-shadow: 5px 10px  15px  rgb(54, 35, 35);
-    overflow-x: auto;
-    margin-top: 39px;
-top: 0; right: 0; bottom: 1; left: 0;
-border: 15px solid rgb(253, 251, 247)
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
 }
 
-#ulist {
-    list-style-type: none;
-    overflow: hidden;
-    justify-content: center;
-    margin: o auto;
-    background-color: black;
-    color: white;
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-.div-header ul a {
-    padding: 13px;
-    color: white;
-    display: inline-block
-    color: white;
-    text-transform: uppercase;
+.section-1 {
+  background-color: #eaebec;
+  width: 100%;
+  height: 100%;
+  padding-top: 8px;
+  padding-bottom: 15px;
+}
+
+.div-1 {
+  width: 61%;
+  height: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px 0.1px #54545469;
+}
+
+.steve-mem {
+  padding: 100px 45px 0px 45px;
+  margin-bottom: 70px;
+}
+
+.steve-mem h1 {
+  font-size: 48px;
+  font-family: "SF Pro Display", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+.steve-mem p {
+  color: #494949;
+  margin: 20px 18px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Lucida Grande", sans-serif;
+}
+
+.steve-mem a {
+  text-decoration: none;
+  color: #08c;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  border: 0.01px solid #d9dada;
+}
+
+.section-2 {
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande",
+    "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+  text-align: justify;
+  width: 59%;
+  margin: 0px auto;
+  padding: 18px 20px;
+  line-height: 1.5;
+}
+
+.div-2 {
+  margin: 70px auto;
+}
+
+.thanks-heading {
+  font-size: 14px;
+}
+
+.steve-text {
+  color: #494949;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+
+.terry {
+  color: #8a8a8a;
+  margin-top: 7px;
+}
+
+.last-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #1f1f1f;
+}
+
+.time {
+  margin-top: 5px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.time h1 {
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.time h3 {
+  font-size: 18px;
+}
+
+.revcall p {
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    padding: 0px 5px;
+    height: 40px;
+    font-size: 6px;
+    font-family: "SF Pro Display", sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.4px;
+  }
+
+  nav a {
     text-decoration: none;
-}
+    color: rgb(255, 255, 255);
+  }
 
-.div-header2 h1 {
-text-align: center;
-}
+  .container {
+    background-color: #eaebec;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
 
+  .container-fluid {
+    width: 80%;
+    height: 90%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px 0.1px #54545469;
+  }
 
-.div-header2 p {
-    width: 850px;
-    margin-left: auto;
-    margin-right: auto;
+  .steve-mem {
+    padding: 40px 15px 0px 15px;
+    margin-bottom: 40px;
+  }
+
+  .steve-mem h1 {
+    font-size: 38px;
+    font-family: "SF Pro Display", sans-serif;
     text-align: center;
-    }
-    
-li {
-    float: left;    
-}
+    font-weight: 600;
+  }
 
-h3 {
-    margin-left: 16px;
-}
+  .steve-mem p {
+    margin: 10px auto;
+    font-size: 9px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: "Lucida Grande", sans-serif;
+  }
 
-a:link, a:visited{
-    
-}
+  hr {
+    width: 85%;
+    margin: 0 auto;
+    border: 0.1px solid #d9dada;
+  }
 
-div #steve-site {
-    color: rgb(52, 52, 122);
+  .tribute-board {
+    font-family: "Helvetica Neue", Helvetica, "Lucida Grande",
+      "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+    text-align: justify;
+    width: 90%;
+    margin: 0px auto;
+    padding: 18px 20px;
+    line-height: 1.5;
+  }
 
-}
+  .steve-div {
+    margin: 30px auto;
+  }
 
-.nav p, h2 {
-margin-left: 7px;
-margin-right: 7px;
-text-align: center;
-}
+  .steve-heading {
+    font-size: 10px;
+  }
+
+  .steve-text {
+    color: #494949;
+    font-size: 8px;
+    letter-spacing: 0.3px;
+  }
+
+  .terry {
+    font-size: 7px;
+    color: #8a8a8a;
+    margin-top: 7px;
+  }
+
+  .last-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #1f1f1f;
+  }
+
+  .time {
+    margin-top: 5px;
+    line-height: 1.5;
+    margin-bottom: 3px;
+  }
+
+  .time h1 {
+    font-size: 23px;
+    font-weight: 400;
+  }
+
+  .time h3 {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .recall p {
+    font-size: 8px;
+    font-weight: 400;
+    font-family: "Lucida Grande", sans-serif;
+  }
